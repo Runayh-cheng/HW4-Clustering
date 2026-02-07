@@ -30,7 +30,7 @@ class Silhouette:
         if type(y) != np.ndarray:
             raise ValueError ("y needs to be a 1D label array for each point.")
         if X.shape[0]!=y.shape[0]:
-            riase ValueError("X y dim mismatch.")
+            raise ValueError("X y dim mismatch.")
 
 
         NumPoints = X.shape[0]
